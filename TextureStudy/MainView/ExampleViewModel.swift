@@ -8,7 +8,8 @@ final public class ExampleViewModel: NSObject, MainViewModelInterface {
   // Setup List Data
   private var items: [ExampleData] = [
     ExampleData(title: "Kittens", instance: KittensViewController.self),
-    ExampleData(title: "HorizontalWithinVerticalScrolling", instance: HorizontalWithinVerticalScrollingViewController.self)
+    ExampleData(title: "HorizontalWithinVerticalScrolling", instance: HorizontalWithinVerticalScrollingViewController.self),
+    ExampleData(title: "ASDKLayoutTransitionViewController", instance: ASDKLayoutTransitionViewController.self),
   ]
   
   public func title(at index: Int) -> String {

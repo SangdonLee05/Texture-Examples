@@ -23,6 +23,8 @@
 		4F66853924B6D6D800452DF2 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853424B6D6D800452DF2 /* ExampleModel.swift */; };
 		4F66853A24B6D6D800452DF2 /* MainViewNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853624B6D6D800452DF2 /* MainViewNode.swift */; };
 		4F66853B24B6D6D800452DF2 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853724B6D6D800452DF2 /* ExampleViewModel.swift */; };
+		4F66853E24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853D24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift */; };
+		4F66854024B6EFB000452DF2 /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853F24B6EFB000452DF2 /* TransitionNode.swift */; };
 		B6590F4DA9BA8EBF50A60F20 /* Pods_TextureStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D95DE1859D21C04D5308468 /* Pods_TextureStudy.framework */; };
 		E4403B893CE966C87F67FA42 /* Pods_TextureExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76AD030F5EE177572A51B9E /* Pods_TextureExamples.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +75,8 @@
 		4F66853424B6D6D800452DF2 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		4F66853624B6D6D800452DF2 /* MainViewNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewNode.swift; sourceTree = "<group>"; };
 		4F66853724B6D6D800452DF2 /* ExampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		4F66853D24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDKLayoutTransitionViewController.swift; sourceTree = "<group>"; };
+		4F66853F24B6EFB000452DF2 /* TransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionNode.swift; sourceTree = "<group>"; };
 		6D95DE1859D21C04D5308468 /* Pods_TextureStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7066149EF6A6A7E7EC18DC3 /* Pods-TextureStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureStudy.release.xcconfig"; path = "Target Support Files/Pods-TextureStudy/Pods-TextureStudy.release.xcconfig"; sourceTree = "<group>"; };
 		F76AD030F5EE177572A51B9E /* Pods_TextureExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +138,7 @@
 		4F66851824B6D5F700452DF2 /* TextureExamples */ = {
 			isa = PBXGroup;
 			children = (
+				4F66853C24B6EF6800452DF2 /* ASDKLayoutTransition */,
 				4F66852824B6D6AE00452DF2 /* HorizontalWithinVerticalScrolling */,
 				4F66852424B6D6AE00452DF2 /* Kittens */,
 				4F66851924B6D5F700452DF2 /* TextureExamples.h */,
@@ -179,6 +184,15 @@
 				4F66853624B6D6D800452DF2 /* MainViewNode.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4F66853C24B6EF6800452DF2 /* ASDKLayoutTransition */ = {
+			isa = PBXGroup;
+			children = (
+				4F66853D24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift */,
+				4F66853F24B6EFB000452DF2 /* TransitionNode.swift */,
+			);
+			path = ASDKLayoutTransition;
 			sourceTree = "<group>";
 		};
 		5E6723864072A4B2CD54EF12 /* Pods */ = {
@@ -392,12 +406,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F66854024B6EFB000452DF2 /* TransitionNode.swift in Sources */,
 				4F66853024B6D6AE00452DF2 /* HorizontalWithinVerticalScrollingViewController.swift in Sources */,
 				4F66852F24B6D6AE00452DF2 /* RandomCoreGraphicsNode.swift in Sources */,
 				4F66853124B6D6AE00452DF2 /* HorizontalScrollCellNode.swift in Sources */,
 				4F66852C24B6D6AE00452DF2 /* KittenNode.swift in Sources */,
 				4F66852E24B6D6AE00452DF2 /* BlurbNode.swift in Sources */,
 				4F66852D24B6D6AE00452DF2 /* KittensViewController.swift in Sources */,
+				4F66853E24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
