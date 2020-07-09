@@ -1,12 +1,5 @@
-//
-//  AppDelegate.swift
-//  TextureStudy
-//
-//  Created by WonderPlug on 2020/07/09.
-//  Copyright © 2020 PIXO. All rights reserved.
-//
 
-import UIKit
+import AsyncDisplayKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +9,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
     let window = UIWindow(frame: UIScreen.main.bounds)
-    window.rootViewController = ViewController()
+    let mainViewController = MainViewController()
+    mainViewController.viewModel = ExampleViewModel()
+    let navigationController = ASNavigationController(rootViewController: mainViewController)
+    window.rootViewController = navigationController
     window.makeKeyAndVisible()
+    
     self.window = window
     
     return true
