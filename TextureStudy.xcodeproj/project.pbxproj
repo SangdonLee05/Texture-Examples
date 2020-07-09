@@ -25,6 +25,14 @@
 		4F66853B24B6D6D800452DF2 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853724B6D6D800452DF2 /* ExampleViewModel.swift */; };
 		4F66853E24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853D24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift */; };
 		4F66854024B6EFB000452DF2 /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66853F24B6EFB000452DF2 /* TransitionNode.swift */; };
+		4F66854324B7019400452DF2 /* ASDKgram.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F66854224B7019400452DF2 /* ASDKgram.xcassets */; };
+		4F66854724B7051800452DF2 /* PhotoFeedControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66854624B7051800452DF2 /* PhotoFeedControllerProtocol.swift */; };
+		4F66854C24B705D900452DF2 /* PhotoFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66854B24B705D900452DF2 /* PhotoFeedModel.swift */; };
+		4F66854E24B7074000452DF2 /* PhotoFeedNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66854D24B7074000452DF2 /* PhotoFeedNodeController.swift */; };
+		4F66855024B70AB300452DF2 /* PhotoFeedBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66854F24B70AB300452DF2 /* PhotoFeedBaseController.swift */; };
+		4F66855224B712C300452DF2 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66855124B712C300452DF2 /* PhotoModel.swift */; };
+		4F66855424B72B5500452DF2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66855324B72B5500452DF2 /* UserModel.swift */; };
+		4F66855624B7355400452DF2 /* ImageURLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66855524B7355400452DF2 /* ImageURLModel.swift */; };
 		B6590F4DA9BA8EBF50A60F20 /* Pods_TextureStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D95DE1859D21C04D5308468 /* Pods_TextureStudy.framework */; };
 		E4403B893CE966C87F67FA42 /* Pods_TextureExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76AD030F5EE177572A51B9E /* Pods_TextureExamples.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +85,14 @@
 		4F66853724B6D6D800452DF2 /* ExampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 		4F66853D24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDKLayoutTransitionViewController.swift; sourceTree = "<group>"; };
 		4F66853F24B6EFB000452DF2 /* TransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionNode.swift; sourceTree = "<group>"; };
+		4F66854224B7019400452DF2 /* ASDKgram.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ASDKgram.xcassets; sourceTree = "<group>"; };
+		4F66854624B7051800452DF2 /* PhotoFeedControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedControllerProtocol.swift; sourceTree = "<group>"; };
+		4F66854B24B705D900452DF2 /* PhotoFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedModel.swift; sourceTree = "<group>"; };
+		4F66854D24B7074000452DF2 /* PhotoFeedNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedNodeController.swift; sourceTree = "<group>"; };
+		4F66854F24B70AB300452DF2 /* PhotoFeedBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedBaseController.swift; sourceTree = "<group>"; };
+		4F66855124B712C300452DF2 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		4F66855324B72B5500452DF2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4F66855524B7355400452DF2 /* ImageURLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLModel.swift; sourceTree = "<group>"; };
 		6D95DE1859D21C04D5308468 /* Pods_TextureStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7066149EF6A6A7E7EC18DC3 /* Pods-TextureStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureStudy.release.xcconfig"; path = "Target Support Files/Pods-TextureStudy/Pods-TextureStudy.release.xcconfig"; sourceTree = "<group>"; };
 		F76AD030F5EE177572A51B9E /* Pods_TextureExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +154,7 @@
 		4F66851824B6D5F700452DF2 /* TextureExamples */ = {
 			isa = PBXGroup;
 			children = (
+				4F66854124B7017900452DF2 /* ASDKgram */,
 				4F66853C24B6EF6800452DF2 /* ASDKLayoutTransition */,
 				4F66852824B6D6AE00452DF2 /* HorizontalWithinVerticalScrolling */,
 				4F66852424B6D6AE00452DF2 /* Kittens */,
@@ -193,6 +210,45 @@
 				4F66853F24B6EFB000452DF2 /* TransitionNode.swift */,
 			);
 			path = ASDKLayoutTransition;
+			sourceTree = "<group>";
+		};
+		4F66854124B7017900452DF2 /* ASDKgram */ = {
+			isa = PBXGroup;
+			children = (
+				4F66854A24B705BC00452DF2 /* Medel */,
+				4F66854524B7050000452DF2 /* Base */,
+				4F66854424B704DC00452DF2 /* ASDK */,
+				4F66854224B7019400452DF2 /* ASDKgram.xcassets */,
+			);
+			path = ASDKgram;
+			sourceTree = "<group>";
+		};
+		4F66854424B704DC00452DF2 /* ASDK */ = {
+			isa = PBXGroup;
+			children = (
+				4F66854D24B7074000452DF2 /* PhotoFeedNodeController.swift */,
+			);
+			path = ASDK;
+			sourceTree = "<group>";
+		};
+		4F66854524B7050000452DF2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4F66854624B7051800452DF2 /* PhotoFeedControllerProtocol.swift */,
+				4F66854F24B70AB300452DF2 /* PhotoFeedBaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4F66854A24B705BC00452DF2 /* Medel */ = {
+			isa = PBXGroup;
+			children = (
+				4F66854B24B705D900452DF2 /* PhotoFeedModel.swift */,
+				4F66855124B712C300452DF2 /* PhotoModel.swift */,
+				4F66855324B72B5500452DF2 /* UserModel.swift */,
+				4F66855524B7355400452DF2 /* ImageURLModel.swift */,
+			);
+			path = Medel;
 			sourceTree = "<group>";
 		};
 		5E6723864072A4B2CD54EF12 /* Pods */ = {
@@ -320,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F66854324B7019400452DF2 /* ASDKgram.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,12 +464,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F66854024B6EFB000452DF2 /* TransitionNode.swift in Sources */,
+				4F66854E24B7074000452DF2 /* PhotoFeedNodeController.swift in Sources */,
 				4F66853024B6D6AE00452DF2 /* HorizontalWithinVerticalScrollingViewController.swift in Sources */,
+				4F66855624B7355400452DF2 /* ImageURLModel.swift in Sources */,
 				4F66852F24B6D6AE00452DF2 /* RandomCoreGraphicsNode.swift in Sources */,
+				4F66854724B7051800452DF2 /* PhotoFeedControllerProtocol.swift in Sources */,
+				4F66855024B70AB300452DF2 /* PhotoFeedBaseController.swift in Sources */,
 				4F66853124B6D6AE00452DF2 /* HorizontalScrollCellNode.swift in Sources */,
+				4F66854C24B705D900452DF2 /* PhotoFeedModel.swift in Sources */,
+				4F66855424B72B5500452DF2 /* UserModel.swift in Sources */,
 				4F66852C24B6D6AE00452DF2 /* KittenNode.swift in Sources */,
 				4F66852E24B6D6AE00452DF2 /* BlurbNode.swift in Sources */,
 				4F66852D24B6D6AE00452DF2 /* KittensViewController.swift in Sources */,
+				4F66855224B712C300452DF2 /* PhotoModel.swift in Sources */,
 				4F66853E24B6EF7B00452DF2 /* ASDKLayoutTransitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
